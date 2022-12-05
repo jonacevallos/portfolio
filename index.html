@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Clases HTML</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -23,25 +23,51 @@
             </nav>  
     </header>
     <div class="itemPrincipal">
-        <div class="exposicion">
+        <div class="exposicion" id="carrousel-1">
             <section class="articulos">
-                <article id="trabajo1">
-                    <img src="IMG/imagen1.png">
+                <article class="trabajo1">
+                    <img src="PEANUT_BUTTER.png">
                     <div class="textosExposicion">
                         <h1>HALLOWEEN 2022</h1>
                         <br>Cover realizado para una sesión enfocada en el contexto de Halloween, inspirada en el villano Scarecrow de Batman con un toque neon.</br>
                     </div> 
                 </article>
             </section>
-        </div>
-        <div class="flechas">
-            <i class="material-symbols-outlined">
-                chevron_left
+            <div class="flechas">
+                <a href="#carrousel-2">
+                <i class="material-symbols-outlined">
+                    chevron_left
                 </i>
-            <i class="material-symbols-outlined">
-                chevron_right
-                </i>
+                </a>
+                <a href="#carrousel-2"></a>
+                <i class="material-symbols-outlined">
+                    chevron_right
+                    </i>
+            </div>
         </div>
+        <div class="exposicion" id="carrousel-2">
+            <section class="articulos">
+                <article class="trabajo1">
+                    <img src="door.jpg">
+                    <div class="textosExposicion">
+                        <h1>DOG TRAP</h1>
+                        <br>Cover inspirado en el stilo trap.</br>
+                    </div> 
+                </article>
+            </section>
+            <div class="flechas">
+                <a href="#carrousel-1">
+                <i class="material-symbols-outlined">
+                    chevron_left
+                </i>
+                </a>
+                <a href="#carrousel-1"></a>
+                <i class="material-symbols-outlined">
+                    chevron_right
+                </i>
+            </div>
+        </div>
+    </di>
     </div>
     <footer>
         Derechos de admision reservador 2022

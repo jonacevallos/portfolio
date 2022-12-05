@@ -35,13 +35,14 @@ header .navegacion li a{
 .itemPrincipal {
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 .exposicion{
     position: absolute;
     width: 100%;
     height: 100%;
 }
-#trabajo1 img{
+.trabajo1 img{
     width: 605px;
     height: 605px;
     float:left;
@@ -52,14 +53,15 @@ header .navegacion li a{
 .textosExposicion{
     position: absolute;
     text-align: center;
-    margin-top: 10vh;
-    margin-left: 65vh;
+    padding-top: 300px;
+    margin-left: 95vh;
+    margin-right: 10vh;
     font-size: 24px;
     color: white;
     
 }
 .flechas{
-  
+    
   color: white;
   position: absolute;
   top: 0;
