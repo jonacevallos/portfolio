@@ -107,6 +107,10 @@ footer{
     text-align: center;
     font-size: 32px;
 }
+.itemCabeFormulario > p > a{
+    text-decoration: none;
+    color: black;
+}
 .itemDatos ol{
     list-style:none;
 }
@@ -144,11 +148,15 @@ input[type='submit'] {
     font-size: 32px;
     color: white;
     background-color: rgb(29, 29, 29);
-    position: relative;
-    height: 40vmin;
+    height: 50vmin;
 }
 .itemInicio > p{
-    justify-content: left;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    
+    
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -160,6 +168,7 @@ input[type='submit'] {
 .itemIconos{
     background-color: #D90452;
     padding-left: 2% ;
+    height: 45vmin;
 }
 .itemIconos > a > span {
     margin:10px;

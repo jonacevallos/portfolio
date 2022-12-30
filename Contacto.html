@@ -15,7 +15,7 @@
     <header>
         <nav class="navegacion">
             <ul class="seccion">
-            <li class="menu"><a href="/home/kali/Documents/inicio.html">Inicio</a></li>
+            <li class="menu"><a href="/home/kali/Documents/portfolio/inicio.html">Inicio</a></li>
             <li class="menu"><a href="/home/kali/Documents/portfolio/index1.html">Articulos</a></li>
             <li class="menu"><a href="/home/kali/Documents/portfolio/Contacto.html">Contacto</a></li>
             </ul>
@@ -24,26 +24,31 @@
     <div class="itemFormulario">
         <div class="itemCabeFormulario">
             <h1>Contacto</h1>
-            <p>Pongase en contacto con nosotros rellenando este documento.</p>
+            <p>Pongase en contacto con nosotros rellenando este documento.<br><a href="mailto:tarea2@foc.es">Si lo prefieres pulsa aqui y envianos un email.</a></p>
+            
         </div>
         <form>
             <div class="itemDatos">
                 <ol>
                     <li>
                         <label for="mail">Email: </label>
-                        <input type="text" id="mail" placeholder="tunombre@ejemplo.com" size="50"/>
+                        <input type="text" id="mail" placeholder="tunombre@ejemplo.com" size="50" required="required"/>
                     </li>
                     <li>
                         <label for="dato1">Nombre: </label>
-                        <input type="text" id="dato1" placeholder="nombre" size="50"/>  
+                        <input type="text" id="dato1" placeholder="nombre" size="50" required="required"/>  
                     </li>
                     <li>
                         <label for="dato2">Apellidos: </label>
-                        <input type="text" id="dato2" placeholder="Apellidos"size="50"/>
+                        <input type="text" id="dato2" placeholder="Apellidos"size="50" required="required"/>
                     </li>
                     <li>
                         <label for="telf">Telefono: </label>
                         <input type="text" id="telf" placeholder="telefono" size="50"/>
+                    </li>
+                    <li>
+                        <label for="edad">Edad:</label>
+                        <input type="date" id="edad" name="fecha" value="YYYY-MM-DD" />
                     </li>
     
                 </ol>
@@ -55,7 +60,7 @@
                     <li>
                         <label for="texto">Texto complementario</label>
                         <p>
-                            <textarea type="text" id="texto" rows="5" cols="50">Texto</textarea>
+                            <textarea type="text" id="texto" rows="5" cols="50" required="required">Texto</textarea>
                         </p>
                         
                     </li>
@@ -64,7 +69,7 @@
                         <label for="empresa">Empresa</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="terminos">
+                        <input type="checkbox" id="terminos" required="required">
                         <label for="terminos">Aceptas los terminos de privacidad</label>
                     </li>
                     <li>
@@ -83,7 +88,7 @@
         
     </div>
     <footer>
-        Derechos de admision reservador 2022
+        Jonathan Cevallos Moreira 49597952Q 
     </footer>
 </body>
 </html>
