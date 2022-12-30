@@ -139,4 +139,33 @@ input[type='submit'] {
     justify-self: end;
     font-size: 1rem;
 }
-
+.itemInicio{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    height: 40vmin;
+}
+.itemInicio > p{
+    justify-content: left;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.itemIconos{
+    background-color: #D90452;
+    padding-left: 2% ;
+}
+.itemIconos > a > span {
+    margin:10px;
+}
+.itemIconos > a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
